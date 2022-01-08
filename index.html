@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay muted loop>
+            <source src="assets/video_bg.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+            <div data-error class="error-field"></div>
+        </div>
+        <button data-all-clear class="span-two-col">AC</button>
+        <button data-delete>DEL</button>
+        <button data-sign>±</button>
+        <button data-sqrt>√</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation="÷">÷</button>
+        <button data-operation="pow">x<sup>y</sup></button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation="×">×</button>
+        <button data-percent>%</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation="-">-</button>
+        <button data-equals class="span-two-row">=</button>
+        <button data-number class="span-two-col">0</button>
+        <button data-number>.</button>
+        <button data-operation="+">+</button>
+    </div>
+</body>
+</html>
